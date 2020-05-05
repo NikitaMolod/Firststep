@@ -1,0 +1,37 @@
+.obolochka{
+    margin: 50px;
+    border: 1px solid black;    
+    width: 400px;
+    border-radius: 20px;
+    padding: 30px 10px 0px 10px;
+    
+    
+}
+.obolochka2{
+    height: 400px;
+    overflow-y: scroll;
+
+
+}
+input{
+    border: 0px solid white;
+    background-color: silver;
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px;
+    font-size: 15px;
+}
+p{
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}
+@keyframes nazvanie{
+     0%{
+         width: 40px;
+         transform: rotate(45deg);
+     }
+     50%{width: 100px;
+    }
+    100%{width: 40px;transform: rotate(90deg);}
+
+}
